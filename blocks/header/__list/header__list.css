@@ -1,0 +1,15 @@
+.header__list {
+    width: 632px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    list-style-type: none;
+    direction: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__list a{
+    text-decoration: none;
+    color: #FFFFFF;
+}

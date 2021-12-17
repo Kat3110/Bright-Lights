@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css" href="css/audioplayer.css" />
+  <script src="js/jquery.js"></script>
+	<script src="js/js/audioplayer.js"></script>
+  <title>Bright Lights</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="header__navigation">
+        <img class="logo" src="images/logo.svg" alt=".">
+        <ul class="header__list">
+          <li><a href="" target="_blank">About</a></li>
+          <li><a href="" target="_blank">News</a></li>
+          <li><a href="" target="_blank">Music</a></li>
+          <li><a href="" target="_blank">Media</a></li>
+          <li><a href="" target="_blank">Tours</a></li>
+          <li><a href="" target="_blank">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="header__single">
+        <p class="header__subtitle">New Single</p>
+        <p class="header__name">War For Love</p>
+        <audio preload="auto" controls>
+          <source src="Commander Impulse - DivKid.mp3">
+        </audio>
+      </div>
+    </header>
+    <main class="content">
+
+    </main>
+
+  </div>
+  <script>
+    $(function() {
+				$('audio').audioPlayer();
+			});
+  </script>
+</body>
+
+</html>

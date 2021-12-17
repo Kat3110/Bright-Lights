@@ -1,0 +1,10 @@
+.page {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    background: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    color: #FFFFFF;
+}

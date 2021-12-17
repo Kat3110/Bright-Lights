@@ -1,0 +1,15 @@
+.content {
+    width: 100%;
+    background: #fbfbfb;
+}
+.content section {
+    max-width: 1920px;
+}
+@media screen and (max-width: 767px){
+    .content {
+        background: white;
+    }
+    .content section {
+        background: #fbfbfb;
+    }
+}
