@@ -1,0 +1,10 @@
+.newsline__shell {
+    background: rgba(122,102,204,0.7);
+    width: 350px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

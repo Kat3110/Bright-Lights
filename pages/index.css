@@ -16,11 +16,11 @@
 @import url(../blocks/header/__single/header__single.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+@import url(../blocks/newsline/newsline.css);
+@import url(../blocks/newsline/__image/newsline__image.css);
+@import url(../blocks/newsline/__discription/newsline__discription.css);
+@import url(../blocks/newsline/__box/newsline__box.css);
+@import url(../blocks/newsline/__shell/newsline__shell.css);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

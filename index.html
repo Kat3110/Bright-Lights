@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css" href="css/audioplayer.css" />
   <script src="js/jquery.js"></script>
-	<script src="js/js/audioplayer.js"></script>
+  <script src="js/js/audioplayer.js"></script>
   <title>Bright Lights</title>
 </head>
 
@@ -33,14 +33,36 @@
       </div>
     </header>
     <main class="content">
-
+      <section class="newsline">
+        <div class="newsline__box">
+          <img class="newsline__image" src="images/Rectangle.png" alt=".">
+          <div class="newsline__shell">
+            <p class="newsline__discription">Working on my upcoming full-lenth
+              album that`s releasing later this year.</p>
+          </div>
+        </div>
+        <div class="newsline__box">
+          <img class="newsline__image" src="images/Rectangle2.png" alt=".">
+          <div class="newsline__shell">
+            <p class="newsline__discription">Halloween vibes.
+              Listen my new track!</p>
+          </div>
+        </div>
+        <div class="newsline__box">
+          <img class="newsline__image" src="images/Rectangle3.png" alt=".">
+          <div class="newsline__shell">
+            <p class="newsline__discription">WarForLove is OUT NOW!!
+              Stream it here!</p>
+          </div>
+        </div>
+      </section>
     </main>
 
   </div>
   <script>
-    $(function() {
-				$('audio').audioPlayer();
-			});
+    $(function () {
+      $('audio').audioPlayer();
+    });
   </script>
 </body>
 

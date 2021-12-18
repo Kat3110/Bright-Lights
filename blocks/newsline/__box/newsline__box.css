@@ -1,0 +1,6 @@
+.newsline__box {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    position: relative;
+}

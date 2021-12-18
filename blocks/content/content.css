@@ -1,15 +1,16 @@
 .content {
-    width: 100%;
-    background: #fbfbfb;
-}
-.content section {
     max-width: 1920px;
+    margin: 0 auto;
+    /* background: rgb(28, 27, 33); */
+    background: transparent;
+    height: 1000px;
 }
-@media screen and (max-width: 767px){
+
+/* @media screen and (max-width: 767px){
     .content {
         background: white;
     }
     .content section {
         background: #fbfbfb;
     }
-}
+} */
