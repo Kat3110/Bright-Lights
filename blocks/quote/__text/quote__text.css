@@ -1,0 +1,11 @@
+.quote__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    background: transparent url(../../../images/“.svg) no-repeat 1px 1px;
+    width: 520px;
+    height: max-content;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding-bottom:25px;
+    margin: 50px auto 25px 80px;
+}

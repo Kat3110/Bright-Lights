@@ -1,0 +1,10 @@
+.discription {
+    width: 1110px;
+    height: 594px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.discription__block {
+    width: 594px;
+}

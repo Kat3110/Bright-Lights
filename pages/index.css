@@ -21,9 +21,22 @@
 @import url(../blocks/newsline/__discription/newsline__discription.css);
 @import url(../blocks/newsline/__box/newsline__box.css);
 @import url(../blocks/newsline/__shell/newsline__shell.css);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+
+@import url(../blocks/discription/discription.css);
+@import url(../blocks/discription/__title/discription__title.css);
+@import url(../blocks/discription/__subtitle/discription__subtitle.css);
+@import url(../blocks/discription/__list/discription__list.css);
+@import url(../blocks/discription/__box/discription__box.css);
+@import url(../blocks/discription/__image/discription__image_frist.css);
+@import url(../blocks/discription/__image/discription__image_second.css);
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__link/quote__link.css);
+@import url(../blocks/quote/__image/quote__image.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
 
 @import url(../blocks/);
 @import url(../blocks/);
@@ -31,25 +44,33 @@
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
-
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
-
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
-
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
-
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);

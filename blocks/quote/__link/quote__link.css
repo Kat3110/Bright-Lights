@@ -1,0 +1,10 @@
+.quote__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
+    margin: 0 auto 0 80px;
+    width: 126px;
+    height: max-content;
+}

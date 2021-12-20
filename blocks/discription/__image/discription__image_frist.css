@@ -1,0 +1,9 @@
+.discription__image_frist {
+    position: absolute;
+    background: transparent url(../../../images/Rectangle16.png) no-repeat;
+    width: 350px;
+    height: 408px;
+    top: 58px;
+    right: 101px;
+    z-index: 2;
+}
