@@ -1,0 +1,5 @@
+.player__image {
+    background: transparent url(../../../images/player.png) no-repeat 1px 1px;
+    width: 510px;
+    height: 510px;
+}

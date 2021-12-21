@@ -27,7 +27,7 @@
       <div class='header__single'>
         <p class='header__subtitle'>New Single</p>
         <p class='header__name'>War For Love</p>
-        <audio preload='auto' controls>
+        <audio class="header__audio" preload='auto' controls>
           <source src='Commander Impulse - DivKid.mp3'>
         </audio>
       </div>
@@ -88,7 +88,30 @@
         <a class='quote__link' href='' target='_blank'>PopULove.net</a>
         <div class='quote__image'></div>
       </section>
+      <section class='player'>
+        <div class='player__box'>
+          <div class='player__image'></div>
+        </div>
+        <div class='player__playlist'>
+          <p class='discription__title'>Last tracks</p>
+          <audio class="player__music" preload='auto' controls>
+            <source src='Commander Impulse - DivKid.mp3'>
+          </audio>
+          <ol>
+            <li><span>
+                <source src="audio/track_01.mp3">3LAU, Bright Lights — How You Love Me
+              </span></li>
+            <li><span>
+                <source src="audio/track2.mp">Bright Lights, Kaleena Zanders, Kandy — War For Love
+              </span></li>
+            <li><span src="audio/track3.mp3">Pink Is Punk, Benny Benassi, Bright Lights — Ghost</span></li>
+            <li><span src="audio/track4.mp3">Hardwell, Dyro, Bright Lights — Never Say Goodbye</span></li>
+            <li><span src="audio/track5.mp3">Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</span></li>
+            <li><span src="audio/track6.mp3">Zedd, Bright Lights — Follow You Down</span></li>
+          </ol>
+        </div>
 
+      </section>
       <section class='gallery'>
         <img class='gallery__image gallery__image_size_m' src='images/Rectangle20.png' alt='.'>
         <img class='gallery__image gallery__image_size_s' src='images/Rectangle21.png' alt='.'>
@@ -100,8 +123,40 @@
   </div>
   <script>
     $(function () {
-      $('audio').audioPlayer();
+      $('.header__audio').audioPlayer();
     });
+
+    $(function () {
+          $('.player__music').audioPlayer();
+    });
+
+    var spanMusic = document.querySelectorAll('li span');
+    var mainMusic = document.getElementsByClassName('player__music')[0];
+
+    for (var i = 0; i < spanMusic.length; i++) {
+      spanMusic[i].addEventListener('click', function () {
+
+        $('.player__music').remove();
+        $('.player__playlist .audioplayer').remove();
+
+        
+
+        var thisMusic = this.childNodes[1];
+        var attributeMusic = thisMusic.getAttribute('src');
+        var mainAttributeMusic = mainMusic.childNodes[1];
+
+        mainAttributeMusic.setAttribute('src', attributeMusic)
+
+        // console.log(mainAttributeMusic.getAttribute('src'));
+
+        $(function () {
+          $('.player__music').audioPlayer();
+        });
+
+      }, false);
+    }
+
+
   </script>
 </body>
 

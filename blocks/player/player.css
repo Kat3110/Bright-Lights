@@ -1,0 +1,12 @@
+.player {
+    margin: 0 auto 180px;
+    width: 1110px;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}

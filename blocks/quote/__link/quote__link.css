@@ -8,3 +8,7 @@
     width: 126px;
     height: max-content;
 }
+
+.quote__link:hover {
+   opacity: 0.5;
+}

@@ -13,3 +13,7 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.header__list a:hover{
+    opacity: 0.5;
+}

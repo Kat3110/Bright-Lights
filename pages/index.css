@@ -38,10 +38,11 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+@import url(../blocks/player/player.css);
+@import url(../blocks/player/__playlist/player__playlist.css);
+@import url(../blocks/player/__image/player__image.css);
+@import url(../blocks/player/__box/player__box.css);
+
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);
