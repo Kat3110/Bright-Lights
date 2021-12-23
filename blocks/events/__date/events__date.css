@@ -1,0 +1,9 @@
+.events__date {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    width: 94px;
+    margin-left: 35px;
+}

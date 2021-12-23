@@ -4,9 +4,17 @@
     height: max-content;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 ol {
     list-style-type: decimal-leading-zero;
+}
+
+li::marker {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 17px;
 }

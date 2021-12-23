@@ -8,3 +8,7 @@
     overflow: hidden;
     color: #FFFFFF;
 }
+
+a {
+    cursor: pointer;
+}

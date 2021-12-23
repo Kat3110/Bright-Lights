@@ -1,4 +1,18 @@
 .player__playlist {
     width: 540px;
-    height: 584px;
+}
+
+.player__playlist li{
+    margin: 0 auto 20px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    padding-left: 17px;
+}
+
+.player__playlist_active {
+    font-weight: 600 !important;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
 }

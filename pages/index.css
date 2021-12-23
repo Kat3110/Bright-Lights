@@ -42,26 +42,28 @@
 @import url(../blocks/player/__playlist/player__playlist.css);
 @import url(../blocks/player/__image/player__image.css);
 @import url(../blocks/player/__box/player__box.css);
+@import url(../blocks/player/__follow/player__follow.css);
+@import url(../blocks/player/__text/player__text.css);
+@import url(../blocks/player/__link/player__link.css);
+@import url(../blocks/player/__icon/player__icon.css);
 
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+@import url(../blocks/events/events.css);
+@import url(../blocks/events/__ticket/events__ticket.css);
+@import url(../blocks/events/__text/events__text.css);
+@import url(../blocks/events/__place/events__place.css);
+@import url(../blocks/events/__image/events__image.css);
+@import url(../blocks/events/__date/events__date.css);
+@import url(../blocks/events/__box/events__box.css);
+@import url(../blocks/events/__block/events__block.css);
+@import url(../blocks/events/__slider/events__slider.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__box/footer__box.css);
+
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

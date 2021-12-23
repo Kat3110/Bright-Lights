@@ -1,9 +1,9 @@
 .content {
     max-width: 1920px;
     margin: 0 auto;
-    /* background: rgb(28, 27, 33); */
+    background: rgb(28, 27, 33);
     background: transparent;
-    height: 12000px;
+    height: max-content;
 }
 
 /* @media screen and (max-width: 767px){

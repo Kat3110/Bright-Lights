@@ -94,23 +94,48 @@
         </div>
         <div class='player__playlist'>
           <p class='discription__title'>Last tracks</p>
-          <audio class="player__music" preload='auto' controls>
+          <audio class='player__music' preload='auto' controls>
             <source src='Commander Impulse - DivKid.mp3'>
           </audio>
           <ol>
-            <li><span>
+            <li class="player__playlist_active"><span>
                 <source src="audio/track_01.mp3">3LAU, Bright Lights — How You Love Me
-              </span></li>
-            <li><span>
+              </span>
+            </li>
+            <li>
+              <span>
                 <source src="audio/track2.mp">Bright Lights, Kaleena Zanders, Kandy — War For Love
-              </span></li>
-            <li><span src="audio/track3.mp3">Pink Is Punk, Benny Benassi, Bright Lights — Ghost</span></li>
-            <li><span src="audio/track4.mp3">Hardwell, Dyro, Bright Lights — Never Say Goodbye</span></li>
-            <li><span src="audio/track5.mp3">Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</span></li>
-            <li><span src="audio/track6.mp3">Zedd, Bright Lights — Follow You Down</span></li>
+              </span>
+            </li>
+            <li>
+              <span>
+                <source src="audio/track3.mp3">Pink Is Punk, Benny Benassi, Bright Lights — Ghost
+              </span>
+            </li>
+            <li>
+              <span>
+                <source src="audio/track4.mp3">Hardwell, Dyro, Bright Lights — Never Say Goodbye
+              </span>
+            </li>
+            <li>
+              <span>
+                <source src="audio/track5.mp3">Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now
+              </span>
+            </li>
+            <li>
+              <span>
+                <source src="audio/track6.mp3">Zedd, Bright Lights — Follow You Down
+              </span>
+            </li>
           </ol>
+          <div class='player__follow'>
+            <p class='player__text'>Follow me:</p>
+            <a class='player__link'>
+              <img class='player__icon' src='images/Spotify.svg' alt=".">Spotify</a>
+            <a class='player__link'>
+              <img class='player__icon' src='images/iTunes.svg' alt=".">iTunes</a>
+          </div>
         </div>
-
       </section>
       <section class='gallery'>
         <img class='gallery__image gallery__image_size_m' src='images/Rectangle20.png' alt='.'>
@@ -119,7 +144,57 @@
         <img class='gallery__image gallery__image_size_m' src='images/Rectangle23.png' alt='.'>
         <img class='gallery__image gallery__image_size_l' src='images/Rectangle25.png' alt='.'>
       </section>
+      <section class='events'>
+        <div class='events__slider'></div>
+        <div class='events__block'>
+          <img class='events__image' src='images/place.png' alt='.'>
+          <p class='events__place'>Chandler, AZ</p>
+          <p class='events__text'>The Park at Wild Horse Pass</p>
+          <div class='events__box'>
+            <div class='events__date'>Apr 02 202</div>
+            <div class='events__ticket'>tickets</div>
+          </div>
+        </div>
+        <div class='events__block'>
+          <img class='events__image' src='images/place2.png' alt='.'>
+          <p class='events__place'>Ibiza, IBZ</p>
+          <p class='events__text'>Swag Ibiza Club</p>
+          <div class='events__box'>
+            <div class='events__date'>Jul 08 2021</div>
+            <div class='events__ticket'>tickets</div>
+          </div>
+        </div>
+        <div class='events__block'>
+          <img class='events__image' src='images/place3.png' alt='.'>
+          <p class='events__place'>Ibiza, IBZ</p>
+          <p class='events__text'>El Swing Ibiza</p>
+          <div class='events__box'>
+            <div class='events__date'>Jul 10 2021</div>
+            <div class='events__ticket'>tickets</div>
+          </div>
+        </div>
+        <div class='events__slider'></div>
+      </section>
     </main>
+    <footer class='footer'>
+      <img class='logo' src='images/logo.svg' alt='.'>
+      <div class='footer__box'>
+        <p class='footer__text'>Artist Management :
+          <a class='footer__link' target='_blank'>Jake Henny</a>
+        </p>
+        <p class='footer__text'>email :
+          <a class='footer__link' href='jake@brightlightsofficial.com' target='_blank'>jake@brightlightsofficial.com</a>
+        </p>
+      </div>
+      <nav class='footer__nav'>
+        <a class='footer__social'><img class='footer__icon' src='images/Group354.svg' alt='.'></a>
+        <a class='footer__social'><img class='footer__icon' src='images/Group36.svg' alt='.'></a>
+        <a class='footer__social'><img class='footer__icon' src='images/Group37.svg' alt='.'></a>
+        <a class='footer__social'><img class='footer__icon' src='images/Group38.svg' alt='.'></a>
+        <a class='footer__social'><img class='footer__icon' src='images/Group39.svg' alt='.'></a>
+        <a class='footer__social'><img class='footer__icon' src='images/Group40.svg' alt='.'></a>
+      </nav>
+    </footer>
   </div>
   <script>
     $(function () {
@@ -127,7 +202,7 @@
     });
 
     $(function () {
-          $('.player__music').audioPlayer();
+      $('.player__music').audioPlayer();
     });
 
     var spanMusic = document.querySelectorAll('li span');
@@ -139,7 +214,7 @@
         $('.player__music').remove();
         $('.player__playlist .audioplayer').remove();
 
-        
+
 
         var thisMusic = this.childNodes[1];
         var attributeMusic = thisMusic.getAttribute('src');
