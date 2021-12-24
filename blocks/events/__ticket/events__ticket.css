@@ -10,4 +10,11 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: #fff;
+    text-decoration: none;
+}
+
+.events__ticket a {
+    color: #fff;
+    text-decoration: none;
 }

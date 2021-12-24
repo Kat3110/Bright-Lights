@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css" href="css/audioplayer.css" />
   <script src="js/jquery.js"></script>
-  <script src="js/js/audioplayer.js"></script>
+  <script src="js/audioplayer.js"></script>
+  <script src="js/slick.min.js"></script>
   <title>Bright Lights</title>
 </head>
 
@@ -28,7 +29,7 @@
         <p class='header__subtitle'>New Single</p>
         <p class='header__name'>War For Love</p>
         <audio class="header__audio" preload='auto' controls>
-          <source src='Commander Impulse - DivKid.mp3'>
+          <source src='audio/track_0.mp3'>
         </audio>
       </div>
     </header>
@@ -93,18 +94,18 @@
           <div class='player__image'></div>
         </div>
         <div class='player__playlist'>
-          <p class='discription__title'>Last tracks</p>
+          <p class='player__title'>Last tracks</p>
           <audio class='player__music' preload='auto' controls>
-            <source src='Commander Impulse - DivKid.mp3'>
+            <source src='audio/track_0.mp3'>
           </audio>
           <ol>
             <li class="player__playlist_active"><span>
-                <source src="audio/track_01.mp3">3LAU, Bright Lights — How You Love Me
+                <source src="audio/track_0.mp3">3LAU, Bright Lights — How You Love Me
               </span>
             </li>
             <li>
               <span>
-                <source src="audio/track2.mp">Bright Lights, Kaleena Zanders, Kandy — War For Love
+                <source src="audio/track2.mp3">Bright Lights, Kaleena Zanders, Kandy — War For Love
               </span>
             </li>
             <li>
@@ -145,14 +146,13 @@
         <img class='gallery__image gallery__image_size_l' src='images/Rectangle25.png' alt='.'>
       </section>
       <section class='events'>
-        <div class='events__slider'></div>
         <div class='events__block'>
           <img class='events__image' src='images/place.png' alt='.'>
           <p class='events__place'>Chandler, AZ</p>
           <p class='events__text'>The Park at Wild Horse Pass</p>
           <div class='events__box'>
             <div class='events__date'>Apr 02 202</div>
-            <div class='events__ticket'>tickets</div>
+            <div class='events__ticket'><a href="#" target='_blank'>tickets</a></div>
           </div>
         </div>
         <div class='events__block'>
@@ -161,7 +161,7 @@
           <p class='events__text'>Swag Ibiza Club</p>
           <div class='events__box'>
             <div class='events__date'>Jul 08 2021</div>
-            <div class='events__ticket'>tickets</div>
+            <div class='events__ticket'><a href="#" target='_blank'>tickets</a></div>
           </div>
         </div>
         <div class='events__block'>
@@ -170,17 +170,34 @@
           <p class='events__text'>El Swing Ibiza</p>
           <div class='events__box'>
             <div class='events__date'>Jul 10 2021</div>
-            <div class='events__ticket'>tickets</div>
+            <div class='events__ticket'><a href="#" target='_blank'>tickets</a></div>
           </div>
         </div>
-        <div class='events__slider'></div>
+        <div class='events__block'>
+          <img class='events__image' src='images/place3.png' alt='.'>
+          <p class='events__place'>Ibiza, IBZ</p>
+          <p class='events__text'>El Swing Ibiza</p>
+          <div class='events__box'>
+            <div class='events__date'>Jul 10 2021</div>
+            <div class='events__ticket'><a href="#" target='_blank'>tickets</a></div>
+          </div>
+        </div>
+        <div class='events__block'>
+          <img class='events__image' src='images/place3.png' alt='.'>
+          <p class='events__place'>Ibiza, IBZ</p>
+          <p class='events__text'>El Swing Ibiza</p>
+          <div class='events__box'>
+            <div class='events__date'>Jul 10 2021</div>
+            <div class='events__ticket'><a href="#" target='_blank'>tickets</a></div>
+          </div>
+        </div>
       </section>
     </main>
     <footer class='footer'>
       <img class='logo' src='images/logo.svg' alt='.'>
       <div class='footer__box'>
         <p class='footer__text'>Artist Management :
-          <a class='footer__link' target='_blank'>Jake Henny</a>
+          <a class='footer__link' href="#" target='_blank'>Jake Henny</a>
         </p>
         <p class='footer__text'>email :
           <a class='footer__link' href='jake@brightlightsofficial.com' target='_blank'>jake@brightlightsofficial.com</a>
@@ -196,43 +213,7 @@
       </nav>
     </footer>
   </div>
-  <script>
-    $(function () {
-      $('.header__audio').audioPlayer();
-    });
-
-    $(function () {
-      $('.player__music').audioPlayer();
-    });
-
-    var spanMusic = document.querySelectorAll('li span');
-    var mainMusic = document.getElementsByClassName('player__music')[0];
-
-    for (var i = 0; i < spanMusic.length; i++) {
-      spanMusic[i].addEventListener('click', function () {
-
-        $('.player__music').remove();
-        $('.player__playlist .audioplayer').remove();
-
-
-
-        var thisMusic = this.childNodes[1];
-        var attributeMusic = thisMusic.getAttribute('src');
-        var mainAttributeMusic = mainMusic.childNodes[1];
-
-        mainAttributeMusic.setAttribute('src', attributeMusic)
-
-        // console.log(mainAttributeMusic.getAttribute('src'));
-
-        $(function () {
-          $('.player__music').audioPlayer();
-        });
-
-      }, false);
-    }
-
-
-  </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

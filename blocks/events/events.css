@@ -1,7 +1,4 @@
 .events {
-    display: flex;
     width: 1270px;
     margin: 180px auto;
-    justify-content: space-between;
-    align-items: center;
 }
