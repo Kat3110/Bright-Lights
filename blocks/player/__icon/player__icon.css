@@ -3,3 +3,11 @@
     height: 30px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 1250px){
+    .player__icon {
+        width: 2.400vw;
+        height: 2.400vw;
+        margin-right: 0.800vw;
+    }
+}

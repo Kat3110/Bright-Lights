@@ -4,7 +4,6 @@
     font-size: 18px;
     line-height: 27px;
     list-style-type: none;
-    direction: none;
     display: flex;
     justify-content: space-evenly;
 }
@@ -16,4 +15,13 @@
 
 .header__list a:hover{
     opacity: 0.5;
+}
+
+
+@media screen and (max-width: 1250px){
+    .header__list {
+        width: 50.560vw;
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+    }
 }

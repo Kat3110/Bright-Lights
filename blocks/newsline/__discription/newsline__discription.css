@@ -14,3 +14,20 @@
 .newsline__box:nth-of-type(3) .newsline__discription {
     width: 201px;
 }
+
+@media screen and (max-width: 1250px){
+    .newsline__discription {
+        margin: 1.680vw;
+        font-size: 1.280vw;
+        line-height: 1.920vw;
+        width: 24.800vw;
+    }
+    
+    .newsline__box:nth-of-type(2) .newsline__discription {
+        width: 13.840vw;
+    }
+    
+    .newsline__box:nth-of-type(3) .newsline__discription {
+        width: 16.080vw;
+    }
+}

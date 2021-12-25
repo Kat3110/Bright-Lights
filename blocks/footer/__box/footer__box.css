@@ -1,3 +1,9 @@
 .footer__box {
     margin-bottom: 60px;
 }
+
+@media screen and (max-width: 1250px){
+    .footer__box {
+        margin-bottom: 4.800vw;
+    }
+}

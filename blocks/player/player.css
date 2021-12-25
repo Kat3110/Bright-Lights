@@ -22,3 +22,17 @@ li::marker {
 .player li span {
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 1250px){
+    .player {
+        margin: 0 auto 14.400vw;
+        width: 88.800vw;
+    }
+    
+    li::marker {
+        font-size: 1.120vw;
+        line-height: 1.680vw;
+        margin: 1.360vw;
+    }
+}

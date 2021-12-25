@@ -1,8 +1,15 @@
 .header__name {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 100px;
     line-height: 150px;
     color: transparent;
     -webkit-text-stroke: 1px white;
-    text-stroke: 1px white;
+}
+
+@media screen and (max-width: 1250px){
+    .header__name {
+        font-size: 8vw;
+        line-height: 12vw;
+        -webkit-text-stroke: 0.080vw white;
+    }
 }

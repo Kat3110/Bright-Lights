@@ -2,3 +2,10 @@
     width: 350px;
     height: 300px;
 }
+
+@media screen and (max-width: 1250px){
+    .newsline__image {
+        width: 28vw;
+        height: 24vw;
+    }
+}

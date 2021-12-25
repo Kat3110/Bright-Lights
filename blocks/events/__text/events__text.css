@@ -4,3 +4,11 @@
     line-height: 27px;
     margin: 0 auto 24px 35px;
 }
+
+@media screen and (max-width: 1250px){
+    .events__text {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+        margin: 0 auto 1.920vw 2.800vw;
+    } 
+}

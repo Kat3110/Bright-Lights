@@ -4,3 +4,9 @@
     align-items: center;
     height: 60px;
 }
+
+@media screen and (max-width: 1250px){
+    .events__box {
+        height: 4.800vw;
+    }
+}

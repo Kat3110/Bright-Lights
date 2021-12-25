@@ -4,3 +4,10 @@
     line-height: 72px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1250px){
+    .header__subtitle {
+        font-size: 3.840vw;
+        line-height: 5.760vw;
+    } 
+}

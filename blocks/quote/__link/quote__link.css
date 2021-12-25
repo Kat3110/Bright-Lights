@@ -12,3 +12,13 @@
 .quote__link:hover {
    opacity: 0.5;
 }
+
+
+@media screen and (max-width: 1250px){
+    .quote__link {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+        margin: 0 auto 0 6.400vw;
+        width: 10.080vw;
+    }   
+}

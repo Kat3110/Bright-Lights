@@ -16,3 +16,21 @@
     line-height: 27px;
     color: #7A66CC;
 }
+
+@media screen and (max-width: 1250px){
+    .player__playlist {
+        width: 43.200vw;
+    }
+    
+    .player__playlist li{
+        margin: 0 auto 1.600vw;
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+        padding-left: 1.360vw;
+    }
+    
+    .player__playlist_active {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+    }
+}

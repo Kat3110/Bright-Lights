@@ -5,3 +5,11 @@
     margin: 0 auto 179px;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 1250px){
+    .newsline {
+        width: 88.800vw;
+        margin: 0 auto 14.320vw;
+    }
+}

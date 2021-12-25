@@ -4,3 +4,10 @@
     display: flex;
     position: relative;
 }
+
+@media screen and (max-width: 1250px){
+    .newsline__box {
+        width: 28vw;
+        height: 24vw;
+    }
+}

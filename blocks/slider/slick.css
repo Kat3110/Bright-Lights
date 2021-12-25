@@ -122,3 +122,15 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+@media screen and (max-width: 1250px){
+    .slick-slide
+    {
+    min-height: 0.080vw;
+    }
+    .slick-vertical .slick-slide
+    {
+        border: 0.080vw solid transparent;
+    }
+}

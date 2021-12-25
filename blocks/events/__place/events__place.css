@@ -6,3 +6,11 @@
     opacity: 0.5;
     margin: 30px auto 20px 35px;
 }
+
+@media screen and (max-width: 1250px){
+    .events__place {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+        margin: 2.400vw auto 1.600vw 2.800vw;
+    }
+}

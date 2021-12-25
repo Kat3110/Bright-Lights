@@ -5,3 +5,11 @@
     padding: 30px 0 0;
     margin-bottom: -151px;
 }
+
+@media screen and (max-width: 1250px){
+    .header {
+        height: 77.600vw;
+        padding: 2.400vw 0 0;
+        margin-bottom: -12.080vw;
+    }
+}

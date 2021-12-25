@@ -7,3 +7,12 @@
     color: white;
     margin: 0 auto 0 30px;
 }
+
+
+@media screen and (max-width: 1250px){
+    .footer__link {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+        margin: 0 auto 0 2.400vw;
+    }
+}

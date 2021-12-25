@@ -1,4 +1,12 @@
 .events {
-    width: 1270px;
+    width: 1130px;
     margin: 180px auto;
+}
+
+
+@media screen and (max-width: 1250px){
+    .events {
+        width: 90.400vw;
+        margin: 14.400vw auto;
+    }
 }

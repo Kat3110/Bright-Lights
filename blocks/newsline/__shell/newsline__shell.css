@@ -8,3 +8,12 @@
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+@media screen and (max-width: 1250px){
+    .newsline__shell {
+        width: 28vw;
+        height: 7.200vw;
+        border-top-left-radius: 1.600vw;
+        border-bottom-right-radius: 1.600vw;
+    }
+}

@@ -5,3 +5,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 1250px){
+    .footer {
+        width: 42.640vw;
+        height: 33.120vw;
+        margin: 0 auto 3.200vw;
+    }
+}

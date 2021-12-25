@@ -27,3 +27,25 @@
     top: -4;
     left: -50px;
 }
+
+@media screen and (max-width: 1250px){
+    .discription__list {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+        margin: 4.960vw 0 0;
+    }
+    
+    .discription__list li{
+       margin: 0 4vw 2.400vw;
+       width: 15.760vw;
+    }
+    
+    .discription__list li::before {
+        border-radius: 0.800vw 0;
+        width: 2.400vw;
+        height: 2.400vw;
+        margin: 0 1.600vw 2.400vw 0;
+        top: -0.320vw;
+        left: -4vw;
+    }
+}

@@ -6,3 +6,15 @@
 .footer .logo {
     margin: 0 auto 50px;
 }
+
+
+@media screen and (max-width: 1250px){
+    .logo {
+        width: 17.840vw;
+        height: 4.800vw;
+    }
+    
+    .footer .logo {
+        margin: 0 auto 4vw;
+    }
+}

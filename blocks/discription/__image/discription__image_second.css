@@ -6,3 +6,12 @@
     top: 134px;
     right: 14px;
 }
+
+@media screen and (max-width: 1250px){
+    .discription__image_second {
+        width: 28vw;
+        height: 32.640vw;
+        top: 10.720vw;
+        right: 1.120vw;
+    }
+}

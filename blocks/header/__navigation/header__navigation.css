@@ -4,3 +4,9 @@
     width: 920px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1250px){
+    .header__navigation {
+        width: 73.600vw;
+    }
+}

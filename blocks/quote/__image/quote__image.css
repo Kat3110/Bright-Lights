@@ -6,3 +6,14 @@
     top: -88px;
     right: 73px;
 }
+
+
+@media screen and (max-width: 1250px){
+    .quote__image {
+        background: transparent url(../../../images/Rectangle19.png) no-repeat 0.080vw 0.080vw;
+        width: 29.600vw;
+        height: 38.640vw;
+        top: -7.040vw;
+        right: 5.840vw;
+    }    
+}

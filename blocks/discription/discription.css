@@ -8,3 +8,14 @@
 .discription__block {
     width: 594px;
 }
+
+@media screen and (max-width: 1250px){
+    .discription {
+        width: 88.800vw;
+        height: 47.520vw;
+    }
+    
+    .discription__block {
+        width: 47.520vw;
+    }
+}

@@ -36,3 +36,21 @@
     height: 235px;
     margin: 30px 0 0;
 }
+
+@media screen and (max-width: 1250px){
+    .gallery__image_size_s {
+        width: 20.400vw;
+        height: 18.800vw;
+    }
+    
+    .gallery__image_size_m {
+         width: 20.400vw;
+        height: 40vw;
+    }
+        
+    .gallery__image_size_l {
+        width: 43.200vw;
+        height: 18.800vw;
+        margin: 2.400vw 0 0;
+    }
+}

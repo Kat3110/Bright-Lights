@@ -10,3 +10,11 @@
 .player__link:hover {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 1250px){
+    .player__link {
+        font-size: 1.120vw;
+        line-height: 1.680vw;
+        margin: 0 2.400vw 0;
+    }
+}

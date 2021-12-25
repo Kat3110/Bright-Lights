@@ -9,3 +9,11 @@
 .footer__text:last-child {
     text-align: right;
 }
+
+
+@media screen and (max-width: 1250px){
+    .footer__text {
+        font-size: 1.440vw;
+        line-height: 2.160vw;
+    }
+}

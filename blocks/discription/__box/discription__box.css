@@ -1,3 +1,10 @@
 .discription__box {
     width: 594px;
 }
+
+
+@media screen and (max-width: 1250px){
+    .discription__box {
+        width: 47.520vw;
+    }
+}

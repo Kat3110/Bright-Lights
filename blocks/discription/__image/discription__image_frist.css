@@ -7,3 +7,12 @@
     right: 101px;
     z-index: 2;
 }
+
+@media screen and (max-width: 1250px){
+    .discription__image_frist {
+        width: 28vw;
+        height: 32.640vw;
+        top: 4.640vw;
+        right: 8.080vw;
+    }
+}
