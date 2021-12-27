@@ -8,7 +8,7 @@
     height: 60px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px 0px;
-    background: transparent url(../../../images/Arrow.svg) no-repeat center 26px;
+    background: transparent;
     cursor: pointer;
     outline: none;
 }
@@ -77,12 +77,12 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
+/* .slick-dotted.slick-slider
 {
     margin-bottom: 30px;
-}
+} */
 
-.slick-dots
+/* .slick-dots
 {
     position: absolute;
     bottom: -25px;
@@ -96,8 +96,8 @@
     list-style: none;
 
     text-align: center;
-}
-.slick-dots li
+} */
+/* .slick-dots li
 {
     position: relative;
 
@@ -109,8 +109,8 @@
     padding: 0;
 
     cursor: pointer;
-}
-.slick-dots li button
+} */
+/* .slick-dots li button
 {
     font-size: 0;
     line-height: 0;
@@ -127,7 +127,7 @@
     border: 0;
     outline: none;
     background: transparent;
-}
+} */
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
@@ -138,7 +138,7 @@
 {
     opacity: 1;
 }
-.slick-dots li button:before
+/* .slick-dots li button:before
 {
     font-family: 'slick';
     font-size: 6px;
@@ -159,12 +159,12 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-.slick-dots li.slick-active button:before
+} */
+/* .slick-dots li.slick-active button:before
 {
     opacity: .75;
     color: black;
-}
+} */
 
 
 
@@ -211,7 +211,7 @@
     left: 0.640vw;
 }
 
-    /* Dots */
+    /* Dots
     .slick-dotted.slick-slider
     {
         margin-bottom: 2.400vw;
@@ -240,6 +240,6 @@
         line-height: 1.600vw;
         width: 1.600vw;
         height: 1.600vw;
-    }
+    } */
 
 }
