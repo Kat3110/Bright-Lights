@@ -1,4 +1,4 @@
-.discription__image_frist {
+.discription__image_first {
     position: absolute;
     background: transparent url(../../../images/Rectangle16.png) no-repeat;
     width: 350px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1250px){
-    .discription__image_frist {
+    .discription__image_first {
         width: 28vw;
         height: 32.640vw;
         top: 4.640vw;
