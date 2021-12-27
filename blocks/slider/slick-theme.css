@@ -50,38 +50,42 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -36px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -36px;
     left: auto;
 }
 .slick-prev:before
 {
     content: '←';
+    font-size: 100%;
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
+    font-size: 100%;
 }
 
 .slick-next
 {
-    right: -25px;
+    right: -36px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    right: -36px;
 }
 .slick-next:before
 {
     content: '→';
+    font-size: 100%;
 }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
+    font-size: 100%;
 }
 
 /* Dots */
@@ -201,7 +205,7 @@
 
     .slick-prev
     {
-        left: 2vw;
+        left: -3.5vw;
     }
     [dir='rtl'] .slick-prev
     {

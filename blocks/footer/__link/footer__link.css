@@ -15,4 +15,7 @@
         line-height: 2.160vw;
         margin: 0 auto 0 2.400vw;
     }
+    .footer__icon {
+        background-size: 20%;
+    }
 }

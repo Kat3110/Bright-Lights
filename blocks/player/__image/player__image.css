@@ -9,5 +9,6 @@
         background: transparent url(../../../images/player.png) no-repeat 0.080vw 0.080vw;
         width: 40.800vw;
         height: 40.800vw;
+        background-size: 100%;
     }
 }
