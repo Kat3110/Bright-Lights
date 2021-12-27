@@ -1,7 +1,7 @@
 .footer {
     width: 533px;
     height: 414px;
-    margin: 0 auto 40px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -10,6 +10,5 @@
     .footer {
         width: 42.640vw;
         height: 33.120vw;
-        margin: 0 auto 3.200vw;
     }
 }
