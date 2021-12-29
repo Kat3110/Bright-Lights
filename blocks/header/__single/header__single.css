@@ -1,5 +1,5 @@
 .header__single {
-    margin: 330px 0 0 10px;
+    margin: 330px auto 0;
     width: 1110px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1250px){
     .header__single {
-        margin: 26.400vw 0 0 0.800vw;
+        margin: 26.4vw auto 0;
         width: 88.800vw;
     }  
 }

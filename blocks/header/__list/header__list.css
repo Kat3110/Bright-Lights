@@ -25,3 +25,17 @@
         line-height: 2.160vw;
     }
 }
+
+@media screen and (max-width: 450px){
+    .header__list {
+        /* font-size: 10px;
+        line-height: 0.727vw;
+        justify-content: space-between;
+        height: auto;
+        width: auto; */
+        display: none;
+    }
+    /* .header__list li{
+        margin: 0 3px 0 0;
+    } */
+}

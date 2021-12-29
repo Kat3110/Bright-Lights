@@ -17,3 +17,13 @@
         background-size: 90%;
     }
 }
+
+@media screen and (max-width: 600px){
+    .discription__image_first {
+        width: 31vw;
+        top: 7.64vw;
+        right: 6.08vw;
+        background-size: 100%;
+        height: 35.64vw;
+    }
+}

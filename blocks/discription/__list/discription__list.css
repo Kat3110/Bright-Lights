@@ -49,3 +49,15 @@
         left: -4vw;
     }
 }
+
+@media screen and (max-width: 600px){
+    .discription__list {
+        font-size: 1.8vw;
+        line-height: 2vw;
+        margin: 8.96vw 0 0;
+    }    
+    .discription__list li{
+        margin: 0 4vw 2.4vw;
+        width: 15.760vw;
+    }
+}

@@ -34,3 +34,13 @@
         line-height: 2.160vw;
     }
 }
+
+
+@media screen and (max-width: 600px){
+    .player__playlist li{
+        margin: 0 auto 1.6vw;
+        font-size: 1.80vw;
+        line-height: 3.16vw;
+        padding-left: 1.36vw;
+    }
+}

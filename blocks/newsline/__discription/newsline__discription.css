@@ -31,3 +31,25 @@
         width: 16.080vw;
     }
 }
+
+
+@media screen and (max-width: 600px){
+    .newsline__discription {
+        margin: 0 auto 0 1.667vw;
+        font-size: 1.667vw;
+        line-height: 2.333vw;
+        width: 25vw;
+    }
+    
+    .newsline__box:nth-of-type(2) .newsline__discription {
+        width: 20vw;
+        margin: 1.667vw;
+        font-size: 1.867vw;
+    }
+    
+    .newsline__box:nth-of-type(3) .newsline__discription {
+        width: auto;
+        margin: 1.667vw;
+        font-size: 1.867vw;
+    } 
+}

@@ -46,3 +46,8 @@ li::marker {
         margin: 1.360vw;
     }
 }
+@media screen and (max-width: 600px){
+    li::marker {
+        font-size: 1.7vw;
+    }
+}

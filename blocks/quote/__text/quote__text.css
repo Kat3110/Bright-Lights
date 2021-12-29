@@ -16,7 +16,17 @@
         line-height: 2.160vw;
         width: 41.600vw;
         padding-bottom: 2vw;
-        margin: 4vw auto 2vw 6.400vw;
         background-size: 20%;
+        margin: 4vw auto 0.7vw 6.4vw;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .quote__text {
+        font-size: 1.84vw;
+        line-height: 2.160vw;
+        width: 44.6vw;
+        background-size: 27%;
     }
 }

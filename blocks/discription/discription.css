@@ -12,7 +12,7 @@
 @media screen and (max-width: 1250px){
     .discription {
         width: 88.800vw;
-        height: 47.520vw;
+        height: max-content;
     }
     
     .discription__block {

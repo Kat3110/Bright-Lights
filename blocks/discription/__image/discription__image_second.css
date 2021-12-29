@@ -16,3 +16,14 @@
         right: 1.120vw;
     }
 }
+
+
+@media screen and (max-width: 600px){
+    .discription__image_second {
+        width: 31vw;
+        height: 35.640vw;
+        top: 27.72vw;
+        background-size: 100%;
+        right: 1.12vw;
+    }
+}
