@@ -76,57 +76,6 @@
     left: 8px;
 }
 
-/* Dots */
-/* .slick-dotted.slick-slider
-{
-    margin-bottom: 30px;
-} 
-.slick-dots
-{
-    position: absolute;
-    bottom: -25px;
-
-    display: block;
-
-    width: 100%;
-    padding: 0;
-    margin: 0;
-
-    list-style: none;
-
-    text-align: center;
-}  
-.slick-dots li
-{
-    position: relative;
-
-    display: inline-block;
-
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-    padding: 0;
-
-    cursor: pointer;
-}
-.slick-dots li button
-{
-    font-size: 0;
-    line-height: 0;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-
-    cursor: pointer;
-
-    color: transparent;
-    border: 0;
-    outline: none;
-    background: transparent;
-} */
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
@@ -137,37 +86,6 @@
 {
     opacity: 1;
 }
-/* .slick-dots li button:before
-{
-    font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-
-    content: '•';
-    text-align: center;
-
-    opacity: .25;
-    color: black;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.slick-dots li.slick-active button:before
-{
-    opacity: .75;
-    color: black;
-} */
-
-
-
-
 
 
 
@@ -182,20 +100,19 @@
         border: 0.080vw solid rgba(255, 255, 255, 0.5);
         border-radius: 0.800vw 0px;
     }
-
-
     .slick-prev
     {
         left: -2vw;
     }
     .slick-prev:before
-{   content: "\00a0 ";
+    {  
+     content: "\00a0 ";
     background: transparent url(../../images/Arrow.svg) no-repeat 0 0.560vw / 112%;
     width: 1.200vw;
     height: 1.200vw;
     top: 1.680vw;
     left: 0.640vw;
-}
+    }
     .slick-next
     {
         right: -2vw;
@@ -208,37 +125,5 @@
     height: 1.200vw;
     top: 1.680vw;
     left: 0.640vw;
-}
-
-    /* Dots
-    .slick-dotted.slick-slider
-    {
-        margin-bottom: 2.400vw;
     }
-
-    .slick-dots
-    {
-        bottom: 2vw;
-    }
-    .slick-dots li
-    {
-        width: 1.600vw;
-        height: 1.600vw;
-        margin: 0 0.400vw;
-    }
-    .slick-dots li button
-    {
-
-        width: 1.600vw;
-        height: 1.600vw;
-        padding: 0.400vw;
-    }
-    .slick-dots li button:before
-    {
-        font-size: 0.480vw;
-        line-height: 1.600vw;
-        width: 1.600vw;
-        height: 1.600vw;
-    } */
-
 }

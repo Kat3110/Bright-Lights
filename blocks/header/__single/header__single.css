@@ -1,12 +1,15 @@
 .header__single {
-    margin: 330px auto 0;
+    margin: 330px 0 0 10px;
     width: 1110px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
 @media screen and (max-width: 1250px){
     .header__single {
-        margin: 26.400vw auto 0;
+        margin: 26.400vw 0 0 0.800vw;
         width: 88.800vw;
     }  
 }
