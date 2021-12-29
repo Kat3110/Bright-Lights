@@ -11,7 +11,7 @@
     .player__title {
         font-size: 3.840vw;
         line-height: 5.760vw;
-        margin: 0 auto 4.960vw 0.800vw;
+        margin: 0 auto 10px 2px;
         background: transparent url(../../../images/Group31.svg) no-repeat 0.320vw 1.920vw;
         padding: 0 0 0 7.520vw;
         background-size: 11%;
