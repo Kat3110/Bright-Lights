@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
     height: 40px;
     align-items: baseline;
     border-radius: 4px;
-    margin: auto;
+    margin: 0 auto 0 0;
 }
 
 .audioplayer-playpause {
