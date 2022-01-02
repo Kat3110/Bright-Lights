@@ -5,12 +5,20 @@
     position: absolute;
     top: 50%;
     width: 30px;
-    height: 60px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 10px 0px;
+    height: 30px;
     background: transparent;
     cursor: pointer;
     outline: none;
+    opacity: .65;
+}
+.slick-prev
+{
+    background: transparent url(../../images/angle-circle-left.svg) no-repeat center / 85%;
+}
+
+.slick-next
+{
+    background: transparent url(../../images/angle-circle-right.svg) no-repeat center / 85%;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -19,111 +27,33 @@
 {
     color: transparent;
     outline: none;
-    background: transparent;
-}
-.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before
-{
-    opacity: 1;
-}
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before
-{
-    opacity: .25;
-}
-
-.slick-prev:before,
-.slick-next:before
-{
-    font-family: 'slick';
-
-    opacity: .75;
-    color: white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    opacity: .55;
 }
 
 .slick-prev
 {
     left: -36px;
 }
-.slick-prev:before
-{   content: "\00a0 ";
-    background-size: 20%;
-    background: transparent url(../../images/Arrow.svg) no-repeat 0 7px / 112%;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 21px;
-    left: 8px;
-}
 
 .slick-next
 {
     right: -36px;
 }
-.slick-next:before
-{    content: "\00a0 ";
-    background-size: 20%;
-    background: transparent url(../../images/Arrow2.svg) no-repeat -3px 7px / 112%;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 21px;
-    left: 8px;
-}
-
-.slick-dots li button:hover,
-.slick-dots li button:focus
-{
-    outline: none;
-}
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before
-{
-    opacity: 1;
-}
-
-
 
 
 @media screen and (max-width: 1250px){
-   /* Arrows */
     .slick-prev,
     .slick-next
     {
         width: 2.400vw;
-        height: 4.800vw;
-        border: 0.080vw solid rgba(255, 255, 255, 0.5);
-        border-radius: 0.800vw 0px;
+        height: 2.400vw;
     }
     .slick-prev
     {
         left: -2vw;
     }
-    .slick-prev:before
-    {  
-     content: "\00a0 ";
-    background: transparent url(../../images/Arrow.svg) no-repeat 0 0.560vw / 112%;
-    width: 1.200vw;
-    height: 1.200vw;
-    top: 1.680vw;
-    left: 0.640vw;
-    }
     .slick-next
     {
         right: -2vw;
-    }
-    .slick-next:before
-{    content: "\00a0 ";
-    background-size: 20%;
-    background: transparent url(../../images/Arrow2.svg) no-repeat -0.240vw 0.560vw / 112%;
-    width: 1.200vw;
-    height: 1.200vw;
-    top: 1.680vw;
-    left: 0.640vw;
     }
 }
