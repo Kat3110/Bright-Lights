@@ -11,9 +11,9 @@
     .player__title {
         font-size: 3.840vw;
         line-height: 5.760vw;
-        margin: 0 auto 10px 2px;
-        background: transparent url(../../../images/Group31.svg) no-repeat 0.320vw 1.920vw;
-        padding: 0 0 0 7.520vw;
+        margin: 0 auto 10px 0;
+        background: transparent url(../../../images/Group31.svg) no-repeat 0.32vw 1.92vw;
+        padding: 0 0 0 7.52vw;
         background-size: 11%;
     }
 }

@@ -37,7 +37,8 @@ li::marker {
     }
 
     ol {
-        padding: 0 0 0 2.800vw;
+        padding: 0px 0 0 1.8vw;
+        margin-top: 1.920vw;
     }
 
     li::marker {

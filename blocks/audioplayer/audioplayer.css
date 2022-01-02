@@ -6,7 +6,6 @@
     height: 40px;
     align-items: baseline;
     border-radius: 4px;
-    justify-content: flex-start;
     margin: 0 auto 0 0;
 }
 
@@ -203,13 +202,13 @@
 
 @media screen and (max-width: 1250px){
     .audioplayer {
-        height: 6.200vw;
-        border-radius: 0.320vw;
+        height: max-content;
+        border-radius: 0.32vw;
     }
     
     .audioplayer-playpause {
-        width: 3.840vw;
-        height: 3.840vw;
+        width: 1vw;
+        height: 1vw;
     }
     
     .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
