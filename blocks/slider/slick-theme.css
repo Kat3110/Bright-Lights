@@ -45,15 +45,15 @@
     .slick-prev,
     .slick-next
     {
-        width: 4.400vw;
-        height: 4.400vw;
+        width: 3.400vw;
+        height: 3.400vw;
     }
     .slick-prev
     {
-        left: -2vw;
+        left: -3vw;
     }
     .slick-next
     {
-        right: -2vw;
+        right: -3vw;
     }
 }
