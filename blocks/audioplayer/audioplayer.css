@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    width: 90%;
-    height: 40px;
+    width: 70%;
+    height: max-content;
     align-items: baseline;
+    justify-content: flex-start;
     border-radius: 4px;
     margin: 0 auto 0 0;
 }
