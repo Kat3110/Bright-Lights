@@ -57,3 +57,20 @@
         right: -3vw;
     }
 }
+
+@media screen and (max-width: 400px){
+    .slick-prev,
+    .slick-next
+    {
+        width: 2.400vw;
+        height: 2.400vw;
+    }
+    .slick-prev
+    {
+        left: -2vw;
+    }
+    .slick-next
+    {
+        right: -2vw;
+    }
+}

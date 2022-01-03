@@ -3,7 +3,6 @@
     width: 1110px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 
@@ -11,5 +10,12 @@
     .header__single {
         margin: 26.4vw auto 0;
         width: 88.800vw;
+    }  
+}
+
+
+@media screen and (max-width: 600px){
+    .header__single {
+        align-items: center;
     }  
 }
